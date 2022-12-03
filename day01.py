@@ -1,12 +1,12 @@
 from aoc import read_input
 
 
-def part1(calorie_list):
+def part1():
     print(calorie_list[0])
     return calorie_list[0]
 
 
-def part2(calorie_list):
+def part2():
     print(calorie_list[0] + calorie_list[1] + calorie_list[2])
     return calorie_list[0] + calorie_list[1] + calorie_list[2]
 
@@ -24,5 +24,5 @@ for v in data:
 
 calorie_list.sort(reverse=True)
 
-assert (part1(calorie_list) == 70698)
-assert (part2(calorie_list) == 206643)
+assert (part1() == 70698)
+assert (part2() == 206643)
