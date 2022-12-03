@@ -23,6 +23,7 @@ for v in data:
         this_elf = 0
 
 calorie_list.sort(reverse=True)
-
+print(part1())
+print(part2())
 assert (part1() == 70698)
 assert (part2() == 206643)

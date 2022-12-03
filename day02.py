@@ -69,5 +69,7 @@ def part2():
 
 
 data = read_input("day02", str)
+print(part1())
+print(part2())
 assert (part1() == 12679)
 assert (part2() == 14470)
