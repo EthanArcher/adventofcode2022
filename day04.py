@@ -1,4 +1,4 @@
-from aoc import read_input, alphabet
+from aoc import read_input
 
 
 def to_area(values):

@@ -1,4 +1,5 @@
 import copy
+
 from aoc import read_input_no_strip
 
 

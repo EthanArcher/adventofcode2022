@@ -1,4 +1,3 @@
-import sys
 from queue import PriorityQueue
 
 from aoc import read_input
